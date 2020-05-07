@@ -154,7 +154,11 @@
             "main": "libs/schematics/src/index.ts",
             "assets": [
               "libs/schematics/*.md",
-              "libs/schematics/src/collection.json"
+              {
+                "glob": "**/*.json",
+                "input": "libs/schematics/src/lib",
+                "output": "./lib/"
+              }
             ]
           }
         }

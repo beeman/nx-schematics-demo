@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "hello-world": {
+      "description": "Hello world schematic",
+      "factory": "./hello-world"
+    },
+    "ng-add": {
+      "description": "Use `ng add <package-name>`",
+      "factory": "./ng-add",
+      "schema": "./ng-add/schema.json"
+    }
+  }
+}
