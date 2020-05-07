@@ -1,4 +1,11 @@
 {
-  "name": "@nx-schematics-demo/schematics",
-  "version": "0.0.1"
+  "name": "@kikstart-playground/schematics",
+  "version": "0.0.1",
+  "schematics": "./collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^9.1.0",
+    "@angular-devkit/schematics": "^9.1.0",
+    "typescript": "~3.8.2"
+  },
+  "devDependencies": {}
 }

@@ -152,7 +152,10 @@
             "tsConfig": "libs/schematics/tsconfig.lib.json",
             "packageJson": "libs/schematics/package.json",
             "main": "libs/schematics/src/index.ts",
-            "assets": ["libs/schematics/*.md"]
+            "assets": [
+              "libs/schematics/*.md",
+              "libs/schematics/src/collection.json"
+            ]
           }
         }
       }

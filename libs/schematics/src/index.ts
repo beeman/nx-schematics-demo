@@ -1,1 +1,1 @@
-export * from './lib/schematics';
+export * from './lib/hello-world';
